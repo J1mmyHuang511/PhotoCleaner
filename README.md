@@ -31,7 +31,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/<your-username>/PhotoCleaner.git
+git clone https://github.com/J1mmyHuang511/PhotoCleaner.git
 cd PhotoCleaner
 chmod +x gradlew
 ./gradlew assembleDebug
