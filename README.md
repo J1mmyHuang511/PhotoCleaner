@@ -31,7 +31,8 @@
 ## 快速开始
 
 ```bash
-cd /home/runner/work/PhotoCleaner/PhotoCleaner
+git clone https://github.com/J1mmyHuang511/PhotoCleaner.git
+cd PhotoCleaner
 chmod +x gradlew
 ./gradlew assembleDebug
 ```
@@ -62,4 +63,3 @@ app/src/main/java/
 
 - 当前“左滑删除”会先记录为待删除，不会立即物理删除文件。
 - 进入“历史记录”页后使用“一键彻底删除”，才会执行系统级删除流程。
-
