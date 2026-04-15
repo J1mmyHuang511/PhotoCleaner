@@ -31,7 +31,7 @@
 ## 快速开始
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/<your-username>/PhotoCleaner.git
 cd PhotoCleaner
 chmod +x gradlew
 ./gradlew assembleDebug
@@ -53,9 +53,10 @@ app/src/main/java/
 ├── com/jimmy/photocleaner/      # 应用入口（Application、MainActivity）
 ├── ui/                          # Compose UI（页面与组件）
 ├── viewmodel/                   # 业务状态与交互逻辑
-├── data/repository/             # 媒体读取、历史记录、删除流程封装
-├── data/dao/                    # Room DAO
-├── data/database/               # Room Database
+├── data/
+│   ├── repository/              # 媒体读取、历史记录与删除流程封装
+│   ├── dao/                     # Room DAO
+│   └── database/                # Room Database
 └── di/                          # Hilt 依赖注入模块
 ```
 
